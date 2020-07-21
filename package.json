@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virezox/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virezox/react/issues"
+  },
+  "homepage": "https://github.com/virezox/react#readme",
+  "devDependencies": {
+    "@babel/core": "7.10.5",
+    "@babel/plugin-transform-react-jsx": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "babel-loader": "8.1.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12"
+  }
+}
